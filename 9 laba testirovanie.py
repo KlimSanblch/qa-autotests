@@ -57,3 +57,5 @@ def test_get_user():
     data = response.json()
     assert data["id"] == 1
     assert "name" in data
+ 
+ 
